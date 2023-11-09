@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Poppins&family=Quicksand&family=Roboto&display=swap');
+:root {
+    --base-dk:#000000 ;
+    --base-lg:#ffffff;
+    --corpo-bk:#2a2929;
+    --cinza:#cccc;
+    --azul:#006def;
+    --azulclaro:#84b1e8;
+
+    --font:'Oswald', sans-serif;
+}
+body{
+    background-image: url('/assets/noite.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}   
+/* Cabeçalho*/
+header{
+    background: var(--base-dk);
+    max-width: 205vh;
+}
+.logo{
+    width: 140px;
+}
+.menu{
+    color: var(--base-lg);
+    float: right;
+    margin-top: 60px;
+    margin-right: 20px;
+    display: flex;
+}
+.conteudo-menu{
+    margin-right: 30px;
+    font-size: 38px;
+    font-family: var(--font);
+}
+.conteudo-menu:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+/* Foto */
+.foto{
+    float: right;
+}
+.eu {
+    width: 300px;
+    margin-top: 60px;
+    margin-right: 40px;
+    border: solid 5px var(--azulclaro);
+    border-radius: 8px;
+    width:360px;
+}
+
+.icones :hover{
+    cursor:pointer;
+}
+/*texto*/
+
+.texto{
+    color: var(--base-lg);
+    margin-top: 60px;
+    margin-left: 45px;
+    font-family: var(--font);
+    background-image: url(/assets/nuvem.png);
+    background-repeat: no-repeat;
+    background-size: 1300px ;
+    height: 600px;
+    text-shadow: 2px 2px 2px var(--corpo-bk);
+}
+.titulo{
+    font-size: 55px;
+}
+.btn {
+    margin-top: 40px;
+    background-color: var(--cinza);
+    border: none;
+    color: var(--base-lg);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  
+.paragrafo{
+    margin-top: 70px;
+    font-size: 25px;
+}
